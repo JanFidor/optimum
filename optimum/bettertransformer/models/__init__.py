@@ -41,6 +41,7 @@ class BetterTransformerManager:
         "distilbert": ("TransformerBlock", DistilBertLayerBetterTransformer),
         "electra": ("ElectraLayer", BertLayerBetterTransformer),
         "ernie": ("ErnieLayer", BertLayerBetterTransformer),
+        "flava": ("FlavaLayer", ViltLayerBetterTransformer),
         "fsmt": ("EncoderLayer", FSMTEncoderLayerBetterTransformer),
         "hubert": ("HubertEncoderLayer", Wav2Vec2EncoderLayerBetterTransformer),
         "layoutlm": ("LayoutLMLayer", BertLayerBetterTransformer),

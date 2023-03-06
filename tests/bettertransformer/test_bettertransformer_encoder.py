@@ -35,6 +35,7 @@ ALL_ENCODER_MODELS_TO_TEST = [
     "hf-internal-testing/tiny-random-DistilBertModel",
     "hf-internal-testing/tiny-random-ElectraModel",
     "hf-internal-testing/tiny-random-ErnieModel",
+    "hf-internal-testing/tiny-random-FlavaModel",
     "hf-internal-testing/tiny-random-LayoutLMModel",
     "hf-internal-testing/tiny-random-MarkupLMModel",
     "hf-internal-testing/tiny-random-rembert",
